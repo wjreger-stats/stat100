@@ -1,0 +1,210 @@
+# Semester Information (Changes from semester to semester)
+# Contact us (from syllabus and footer)
+contact:
+- name: "Karle Flanagan"
+  email: "stat100flanagan@gmail.com"
+  section: "L1 (In-Person) & KF (Online)"
+
+- name: "Albert Yu"
+  email: "stat.albertyu@gmail.com"
+  section: "ONL (Online)"
+
+# Section information (from home page)
+sections:
+- icon: "fas fa-chalkboard-teacher fa-4x"
+  title: "In Person Section: L1"
+  details: >-
+    Instructor: Karle Flanagan<br>
+    Tues/Thurs 12:30pm-1:50pm<br>
+    Lincoln Hall Theater
+
+- icon: "fas fa-desktop fa-4x"
+  title: "Online Section: KF & ONL"
+  details: >-
+    KF Instructor: Karle Flanagan<br>
+    ONL Instructor: Albert Yu<br>
+    Both sections watch lectures on Compass.<br>
+    Both sections welcome to attend in-person anytime.
+
+# Class times (from syllabus)
+classes:
+- name: "L1"
+  type: "In Person Section"
+  time: "Tues/Thurs 12:30pm-1:50pm"
+  place: "-- Lincoln Hall Theater"
+
+- name: "KF"
+  type: "Online Section"
+  time: "No assigned meeting times. Watch lecture videos on Compass. Online people are welcome to attend class."
+  place: ""
+
+- name: "ONL"
+  type: "Online Section"
+  time: "No assigned meeting times. Watch lecture videos on Compass. Online people are welcome to attend class."
+  place: ""
+
+# Office hours
+office-hours:
+  building: "Illini Hall"
+  room: "23"
+  map: "http://ada.fs.illinois.edu/0065.html"
+  days: "Mon, Tues, Wed, Thurs, & Fri"
+  times: "2pm-4pm"
+
+# Course Materials
+textbook:
+  name: "Stat 100 Incomplete Lecture Notes Workbook"
+  edition: "<u>Orange</u> Fall 2019 edition"
+  authors: "Ellen Fireman, Karle Flanagan, and John Marden"
+  price: "$35"
+
+# Homework
+hw-duedates: "every Tuesday and Thursday at 11:59pm"
+
+# Exam Information
+exams:
+- name: "Exam 1"
+  base-name: "exam1"
+  date: "Wednesday, September 18th, 2019"
+  time: "7:00-8:30pm"
+  content: "Chapter 1-Chapter 6 Part 1"
+  locations: ""
+  show-schedule: T
+  show-exams: T
+  conflict: "<i>same day from 4:30-6:00pm</i><br>Location for All Last Names and Sections: Foellinger Auditorium<br>"
+
+- name: "Exam 2"
+  base-name: "exam2"
+  date: "Wednesday, October 16th, 2019"
+  time: "7:00-8:30pm"
+  content: "Chapter 6 Part 2-Chapter 12"
+  locations: "Same as exam 1"
+  show-schedule: F
+  show-exams: T
+  conflict: "<i>same day from 4:30-6:00pm</i><br>Location for All Last Names and Sections: Foellinger Auditorium<br>"
+
+- name: "Exam 3"
+  base-name: "exam3"
+  date: "Wednesday, November 13th, 2019"
+  time: "7:00-8:30pm"
+  content: "Chapters 13-19"
+  locations: "Same as exam 1 & 2"
+  show-schedule: F
+  show-exams: T
+  conflict: "<i>same day from 4:30-6:00pm</i><br>Location for All Last Names and Sections: Foellinger Auditorium<br>"
+
+show-finals: T
+
+exam-years:
+  first: "S19" # Most recent semester
+  full1: "Spring 2019"
+  second: "F18"
+  full2: "Fall 2018"
+  third: "S18"
+  full3: "Spring 2018"
+  fourth: "F16" # notebook exam
+  full4: "Fall 2016"
+
+final-years:
+  first: "S14" # Most recent semester
+  second: "S12"
+
+uiucfinals: "https://registrar.illinois.edu/courses-grades/final-exam-schedule-public/fallschedulingguidelines_public/"
+final-deadline: "December 12th (the last day of class) at 11:59pm!"
+
+
+
+
+
+
+
+
+# General Course Information (Doesn't change very often)
+# Course links
+links1:
+- title: "Lon-Capa"
+  subtitle: "Check Assignments"
+  url: "http://www.lon-capa.illinois.edu/"
+
+- title: "Compass2g"
+  subtitle: "Check Grades"
+  url: "https://compass2g.illinois.edu/"
+
+# Data program links
+links2:
+- title: "Data Analysis Program"
+  url: "http://dataprogram.stat.illinois.edu/"
+  icon: "fas fa-chart-bar fa-2x"
+
+- title: "Simulations"
+  url: "http://istics.net/fireman/sampling.html"
+  icon: "fas fa-calculator fa-2x"
+
+- title: "Guessing Correlations"
+  url: "http://www.istics.net/Correlations/"
+  icon: "fas fa-brain fa-2x"
+
+goals:
+- title: "Why everyone needs to know Basic Statistics"
+  body: "Statistics is a tool to make sense of large amounts of information. Common sense can only handle limited amounts of information. Until recently common sense was sufficient for most people because daily life didn't involve processing a large amount of data. Now large stores of information have become readily available. You can either choose to ignore the information available or you can choose to make sense of it, which means learning statistics."
+
+- title: "What's special about Stat 100"
+  body: "Most people think statistics is boring and difficult. Statistics is to data, what grammar is to words. And like grammar, it's only interesting if it's used to understand something interesting.<br><br>
+  In Stat 100, we use statistics to research a topic we're all interested in - ourselves. We collect data on ourselves through anonymous surveys, largely on the sort of social questions on which students have shown intense interest. Having real questions that we want to answer motivates real understanding, not just memorizing some complicated rules. Statistics is a collection of real tools- the key is to understand which one to use when and why."
+
+- title: "We have a special project"
+  body: "This year we have a special project, doing research on a new class structure we developed, our Coordinated Online Learning (COOL) system seamlessly integrating online and in-person versions. We're studying which works better for which types of students."
+
+# Student experiences
+experiences:
+- text: "Read the newspaper in a new way, without their eyes glazing over when they see quantitative information."
+- text: "Know what questions to ask in evaluating studies and surveys."
+- text: "Understand what questions can and cannot be answered by statistical arguments."
+- text: "Appreciate how much of what matters to them can be better understood with statistics."
+- text: "Feel much more confident applying both logical reasoning and common sense to quantitative topics but are very aware that their intuition can sometimes be so wrong that it's shocking."
+- text: "But what's most surprising is they actually like statistics!"
+
+# Visit us
+visit:
+- name: "University of Illinois at Urbana-Champaign"
+  url: "https://illinois.edu"
+
+- name: "Department of Statistics"
+  url: "https://stat.illinois.edu"
+
+- name: '<i class="fab fa-youtube"></i> StatLecture 100'
+  url: "https://www.youtube.com/channel/UC1NWUJFnBSwciUP5Fniy_7w"
+
+# Course webpages
+course-link1: "http://courses.las.illinois.edu/stat/stat100/"
+course-link2: "https://go.illinois.edu/stat100"
+
+calculator: "https://www.amazon.com/Texas-Instruments-Scientific-Calculator-Accents/dp/B00000JBNX"
+
+technical:
+  name: "Dr. Yuk Tung Liu"
+  email: "ytliu@illinois.edu"
+
+calendar-link: ""
+exam-link: ""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Additional comments...

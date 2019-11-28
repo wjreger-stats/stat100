@@ -1,0 +1,84 @@
+about: >-
+    The Statistics 100 Team is dedicated to helping students on the U of I campus learn and understand basic statistical concepts. We do this in a way that students tell us is both easy to understand and informative!
+    <br>
+    Stat 100 is unique because we do not teach statistics by memorizing formulas, instead we make sure students understand the concepts and ideas by using our own data taken in class through surveys, a fill in the blank notebook, pre-lectures videos, and a wide variety of tools to help facilitate learning for a large diverse group of students.
+    <br>Both the instructors and TAs want you to get the most out of the class and are willing to help in any way that they can. Hope you enjoy your semester with us!
+
+staff:
+- name: "Karle Flanagan"
+  netid: "kflan"
+  role: "prof"
+  bio: >-
+    Hi everyone! My name is Karle and I'm one of the stat 100 instructors. I've always loved math, statistics, and education. Teaching stat 100 is the perfect job for me since I can help students from many different majors gain an appreciation for all 3.<br><br> A few other things about me: I'm a huge Illini fan- I went to school at UIUC, met my husband at UIUC, and now I work here. U of I is one of my favorite places in the world! I also enjoy spending time outside, playing piano, water skiing, snow skiing, and traveling.
+
+- name: "Albert Yu"
+  netid: "ayu12"
+  role: "prof"
+  bio: >-
+    Hi students! I'm Albert Yu, and I am one of the instructors for Stat 100. Before coming to UIUC, I studied nuclear engineering at Georgia Tech, worked for Delta Airlines, traveled around the world, taught middle school for a few years, and studied Statistics at Virginia Tech.<br><br>I enjoy teaching statistics because it's such an important topic today, and I think it's pretty cool now. In my spare time, I enjoy playing racquetball, woodworking, playing viola, and taking my dog on bike rides.
+
+- name: "Jonas Reger"
+  netid: "wreger2"
+  role: "se"
+  bio: >-
+    My name is Jonas and I'm a senior studying statistics and computer science. I completed my associates in 2018 with a major in computer science. I am working towards my Bachelor's in Statistics, and will go on to do a Master's in Statistics too! In addition to working as a Teaching Assistant for STAT 100, I'm also a Grading Assistant for STAT 420. I was born and raised in Champaign so I'm used to cornfields - but I love mountains and the coasts much more! I enjoy reading, gaming, playing piano, hiking, and talking with friends.
+
+- name: "Miah Phillips"
+  netid: "miahep2"
+  role: "se"
+  bio: >-
+    My name is Miah Phillips and I'm a sophomore on a pre-dental track! Stat 100 was my favorite class I've ever taken, so I knew I wanted to become more involved with it! Other than working as a Stat 100 TA, I work at the front desk of Newman Hall. Other things about me: I am obsessed with my dog (please ask to see pictures), I am from a small town 30 minutes south of campus named Tuscola, and I watch an unhealthy amount of Friends!
+
+- name: "Bing Liu"
+  netid: "bingl2"
+  role: "se"
+  bio: >-
+    My name is Bing and I'm a graduate student in the Gies College of Business getting a M.S. in Management. I just graduated from UIUC this past May with my undergraduate degree in psychology with an economics minor on a pre-medical track. I have been helping with t he STAT 100 course for 2 years now. I'm also a Course Assistant for the iMBA program and a Research Assistant in a psych research lab on campus. I grew up in Chicago and spend most of my free time trying new recipes and watching an absurd amount of Netflix (please send me show recs).
+
+- name: "Atharv Pathak"
+  netid: "atharvp2"
+  role: "se"
+  bio: >-
+    Hello my name is Atharv Pathak and I'm a junior in Statistics and Aerospace Engineer! I really loved Stat 200, which is why I decided to become a TA for Stat 100. In addition to being a TA for this class, I am also a CA for a Stat 200 class in data science, so if you have any questions about the course I would love to answer them! A little about me: I am a huge football fan (I love the Cincinnati Bengals), I like working out and I love Chicago rap!
+
+- name: "Sharon Wang"
+  netid: "sjwang3"
+  role: "se"
+  bio: >-
+    Hi, I'm Sharon Wang and I'm a sophomore majoring in Statistics and Computer Science! In addition to being a Course Assistant for STAT 100, I'm also doing research in data mining and natural language processing. I love all things math, statistics, and computer science. I also like collecting cute stationery and drinking green tea!
+
+- name: "Ashley Grudzinski"
+  netid: "apg3"
+  role: "se"
+  bio: >-
+    Hello! My name is Ashley Grudzinski and I am a Junior studying Statistics and Computer Science. Stat 100 was one of the reasons I chose my major and I hope to help others see how amazing statistics can be! Aside from being a TA, I am also a tour guide on campus as well as work in the fancy box seating at Memorial Stadium. I also love playing board games, singing, binge watching How I Met Your Mother for the 50th time, and playing with my dog, Rocket!
+
+- name: "Rebecca Pasman"
+  netid: "rpasman2"
+  role: "se"
+  bio: >-
+    My name is Rebecca Pasman and I am currently a senior majoring in Statistics with a minor in Computer Science. I'm from the Northern suburbs of Chicago, so about 2.5 hours away from campus. I love Stats and am really passionate about helping others, which is why I decided to become more involved in the department. I also am working part time for BP in Research Park when I am not in class or office hours for Stat 100. Some of my hobbies include hanging out with friends, playing tennis, singing, skiing, and traveling.
+
+- name: "Cheyenne Peterson"
+  netid: "csp2"
+  role: "se"
+  bio: >-
+    My name is Cheyenne Petersen and I am a sophomore studying Psychology. When I took STAT 100 as a freshman, I discovered a new interest in statistics and wanted to join the STAT 100 team! I am a huge Chicago Cubs fan, and I think it would be interesting to have a career in sport psychology and involve statistics. In my free time, I am on the Illinois Rowing Club team and enjoy reading and exercising. A fun fact is that I like trying different coffee shops on campus to keep up with my iced coffee obsession!
+
+- name: "Kelsey Libert"
+  netid: "klibert2"
+  role: "se"
+  bio: >-
+    Hi! My name is Kelsey Libert and I am a sophomore studying speech and hearing science. STAT 100 was one of my favorite classes, and I hope to help others understand and enjoy statistics just as much as I do! Outside of working as a TA, I am also a research assistant, volunteer at Carle Auditory Oral School, and childcare coordinator at my church. In my free time, I enjoy cooking, reading, photography, and spending time with my friends and family.
+
+- name: "Leo Guzman"
+  netid: "lguzma2"
+  role: "se"
+  bio: >-
+    Hey guys! My name's Leo, and I'm a senior majoring in Kinesiology. I'm from downtown Chicago and love trying out new restaurants around the city. In my free time, I enjoy hanging out with friends, exercising, and always learning something new! I took STAT 100 freshman year and have been a part of the STAT 100 for the last 2 years, so don't hesitate to ask me questions about stats or college in general!
+
+- name: "Alex Wang"
+  netid: "alexwang"
+  role: "se"
+  bio: >-
+    My name is Alex Wang and I graduated in May 2019 with a double major in Statistics and Economics with a minor in Spanish and am now pursuing a Master's of Science in Statistics. I am from the Northwest Suburbs of Chicago and attended William Fremd High School in Palatine. I TA for STAT 100 because it is the first statistics class I took in my life and I enjoyed it a great deal. This course propelled me to eventually major and pursue a Masters in the field. I hope to teach other's STAT 100 so that they enjoy the class as much as I did and come away with as much practical knowledge as possible.. I really like playing basketball in my free time, but I'm always down to play/watch almost any sport. I enjoy being outside and enjoying the weather when it is nice out. When it is raining I enjoy watching shows and movies.

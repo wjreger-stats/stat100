@@ -1,0 +1,22 @@
+<footer>
+  <div class="row justify-content-center">
+    <div class="col-md-5 text-center">
+      <img src="{{ site.baseurl }}/assets/img/I.png"><img src="{{ site.baseurl }}/assets/img/stat100.png">
+      <p>{{ site.description }}</p>
+      <strong>Contact Us</strong>
+      <p>
+        {% for contact in site.data.info.contact %}
+          <a href="mailto:{{ contact.email }}">Email {{ contact.name }}</a><br>
+        {% endfor %}
+      </p>
+
+      <strong>Visit Us</strong><br>
+      {% for visit in site.data.info.visit %}
+        <a href="{{ visit.url }}" target="_blank">{{ visit.name }}</a><br>
+      {% endfor %}
+
+    </div>
+    <hr class="socket">
+    &copy; University of Illinois Board of Trustees  |  Developed and Maintained by the STAT 100 Team.
+  </div>
+</footer>
