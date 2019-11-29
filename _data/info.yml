@@ -64,7 +64,7 @@ hw-duedates: "every Tuesday and Thursday at 11:59pm"
 # Exam Information
 exams:
 - name: "Exam 1"
-  base-name: "exam1"
+  base-name: "Exam1"
   date: "Wednesday, September 18th, 2019"
   time: "7:00-8:30pm"
   content: "Chapter 1-Chapter 6 Part 1"
@@ -74,7 +74,7 @@ exams:
   conflict: "<i>same day from 4:30-6:00pm</i><br>Location for All Last Names and Sections: Foellinger Auditorium<br>"
 
 - name: "Exam 2"
-  base-name: "exam2"
+  base-name: "Exam2"
   date: "Wednesday, October 16th, 2019"
   time: "7:00-8:30pm"
   content: "Chapter 6 Part 2-Chapter 12"
@@ -84,7 +84,7 @@ exams:
   conflict: "<i>same day from 4:30-6:00pm</i><br>Location for All Last Names and Sections: Foellinger Auditorium<br>"
 
 - name: "Exam 3"
-  base-name: "exam3"
+  base-name: "Exam3"
   date: "Wednesday, November 13th, 2019"
   time: "7:00-8:30pm"
   content: "Chapters 13-19"
