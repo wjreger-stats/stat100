@@ -31,6 +31,10 @@ theme: minima
 plugins:
   - jekyll-feed
 
+exclude:
+  - tools/calendar-generator.ipynb
+  - tools/exam_schedule.tgn
+  - tools/final-schedule.tgn
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
