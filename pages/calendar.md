@@ -5,3 +5,13 @@
 layout: content
 title: Calendar
 ---
+
+<h1 style="text-align:center;">Calendar {{ site.semester }}: {{ site.short-title }} (All Sections)</h1>
+<h3 style="text-align:center;">Color Key: <span style="color:red;">Red-Required Work</span>, <span style="color:blue;">Blue-Optional Work</span></h3>
+<h4 style="margin-bottom:30px;text-align:center;">Everything is due at 11:59pm</h4>
+
+<!-- Calendar Fall 2019: Stat 100 (All Sections)
+Color Key: Red-Required Work, Blue-Optional Work
+*Everything is due at 11:59pm -->
+
+{% include calendar.html %}
