@@ -357,8 +357,22 @@ hr.socket {
   }
 
   .narrow h1 {
-    font-size: 20px;
+    font-size: 25px;
   }
+
+  .narrow h2 {
+    font-size: 23px;
+  }
+
+  .narrow h3 {
+    font-size: 21px;
+  }
+
+  .narrow h4 {
+    font-size: 19px;
+  }
+
+
 
   #syllabus h1, #exams h1, #calendar h1, #faqs h1 {
     font-size: 25px;
@@ -366,6 +380,10 @@ hr.socket {
 
   #syllabus h2, #exams h2, #faqs h2 {
     font-size: 20px;
+  }
+
+  #syllabus h3 {
+    font-size: 15px;
   }
 
   #syllabus li {
@@ -395,9 +413,15 @@ hr.socket {
 
 .testimonials ul.narrow {
   width: 100%;
-
 }
 
+.jumbotron {
+  padding: 0 5px;
+}
+
+.syllabus.narrow .card {
+  padding: 0 5px;
+}
 
 
 
