@@ -402,7 +402,7 @@ hr.socket {
   width: 100%;
 }
 
-.syllabus.narrow {
+.syllabus.narrow, .calendar.narrow, .faqs.narrow, .exams.narrow {
   width: 100%;
   padding-top: 5px;
 }
@@ -419,8 +419,16 @@ hr.socket {
   padding: 0 5px;
 }
 
-.syllabus.narrow .card {
+.syllabus.narrow .card, .exams.narrow .card, .faqs.narrow .card {
+  padding: 0 30px;
+}
+
+.calendar.narrow .card {
   padding: 0 5px;
+}
+
+.calendar .calendar-head {
+  padding: 0 20px;
 }
 
 
