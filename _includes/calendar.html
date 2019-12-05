@@ -1,31 +1,40 @@
 <style>
-    th {
-      width=16.66%;
-      height:30px;
-      text-align:center;
-      line-height: 1em;
-    }
-    td {
-      text-align:center;
-      font-size:60%;
-      padding:0;
-      margin:0;
-    }
-    table {
-      table-layout:fixed;
-      margin:0;
-      padding:0;
-    }
-    p+p {
-      margin-top: 15px;
-    }
-    p {
-        margin:0;
-    }
-    b {
-      display: block;
-      margin-bottom: 15px;
-    }
+th {
+width=16.66%;
+height:30px;
+text-align:center;
+line-height: 1em;
+}
+td {
+text-align:center;
+padding:0;
+margin:0;
+}
+table {
+table-layout:fixed;
+margin:0;
+padding:0;
+}
+p+p {
+margin-top: 15px;
+}
+p {
+margin:0;
+}
+b {
+display: block;
+margin-bottom: 15px;
+}
+.date {
+font-size:95%;line-height:1px;}
+.hw {
+color:red;font-size:100%;}
+.prel, .surv {
+color:blue;font-size:100%;}
+.exam {
+color:red;font-size:115%;}
+.conf {
+font-size:115%;}
 </style>
 <div class="table-responsive">
 <h3 style="text-align: center;">January</h3>
@@ -41,11 +50,11 @@
 </tr>
 <tr>
   <td style="line-height:1px;margin:0;"></td>
-  <td><p style="font-size:95%;line-height:1px;">20</p></td>
-  <td><p style="font-size:95%;line-height:1px;">21</p></td>
-  <td><p style="font-size:95%;line-height:1px;">22</p></td>
-  <td><p style="font-size:95%;line-height:1px;">23</p></td>
-  <td><p style="font-size:95%;line-height:1px;">24</p></td>
+  <td><p class="date">20</p></td>
+  <td><p class="date">21</p></td>
+  <td><p class="date">22</p></td>
+  <td><p class="date">23</p></td>
+  <td><p class="date">24</p></td>
 </tr>
 <tr>
   <td><b>Week 1: Chapter 1</b>(Controlled Experiments)</td>
@@ -57,19 +66,19 @@
 </tr>
 <tr>
   <td style="line-height:1px;margin:0;"></td>
-  <td><p style="font-size:95%;line-height:1px;">27</p></td>
-  <td><p style="font-size:95%;line-height:1px;">28</p></td>
-  <td><p style="font-size:95%;line-height:1px;">29</p></td>
-  <td><p style="font-size:95%;line-height:1px;">30</p></td>
-  <td><p style="font-size:95%;line-height:1px;">31</p></td>
+  <td><p class="date">27</p></td>
+  <td><p class="date">28</p></td>
+  <td><p class="date">29</p></td>
+  <td><p class="date">30</p></td>
+  <td><p class="date">31</p></td>
 </tr>
 <tr>
   <td><b>Week 2: Chapters 2-3</b>(Observational Studies)</td>
   <td></td>
   <td></td>
-  <td><p style="color:red;font-size:100%;">HW Assignment 1 Due</p><p style="color:blue;font-size:100%;">Chapter 2 Part 1 Prelecture Due</p></td>
+  <td><p class="hw">HW Assignment 1 Due</p><p class="prel">Chapter 2 Part 1 Prelecture Due</p></td>
   <td></td>
-  <td><p style="color:red;font-size:100%;">HW Assignment 2 Due</p><p style="color:blue;font-size:100%;">Chapter 2 Part 2 Prelecture Due</p></td>
+  <td><p class="hw">HW Assignment 2 Due</p><p class="prel">Chapter 2 Part 2 Prelecture Due</p></td>
 </tr>
 </table>
 
@@ -86,67 +95,67 @@
 </tr>
 <tr>
   <td style="line-height:1px;margin:0;"></td>
-  <td><p style="font-size:95%;line-height:1px;">03</p></td>
-  <td><p style="font-size:95%;line-height:1px;">04</p></td>
-  <td><p style="font-size:95%;line-height:1px;">05</p></td>
-  <td><p style="font-size:95%;line-height:1px;">06</p></td>
-  <td><p style="font-size:95%;line-height:1px;">07</p></td>
+  <td><p class="date">03</p></td>
+  <td><p class="date">04</p></td>
+  <td><p class="date">05</p></td>
+  <td><p class="date">06</p></td>
+  <td><p class="date">07</p></td>
 </tr>
 <tr>
   <td><b>Week 3: Chapters 3-5</b>(Histograms, Avg, Median, SD, & Normal Curve)</td>
-  <td><p style="color:blue;font-size:100%;">Chapter 3 Prelecture Due</p></td>
-  <td><p style="color:red;font-size:100%;">HW Assignment 3 Due</p></td>
-  <td><p style="color:blue;font-size:100%;">Chapter 4 Prelecture Due</p></td>
-  <td><p style="color:red;font-size:100%;">HW Assignment 4 Due</p></td>
-  <td><b><p style="font-size:115%;">Exam 1 Conflict Sign-Up Due</p></b><p style="color:blue;font-size:100%;">Chapter 5 Prelecture Due</p><p style="color:blue;font-size:100%;">Bonus Survey 2 Due</p></td>
+  <td><p class="prel">Chapter 3 Prelecture Due</p></td>
+  <td><p class="hw">HW Assignment 3 Due</p></td>
+  <td><p class="prel">Chapter 4 Prelecture Due</p></td>
+  <td><p class="hw">HW Assignment 4 Due</p></td>
+  <td><b><p class="conf">Exam 1 Conflict Sign-Up Due</p></b><p class="prel">Chapter 5 Prelecture Due</p><p class="surv">Bonus Survey 2 Due</p></td>
 </tr>
 <tr>
   <td style="line-height:1px;margin:0;"></td>
-  <td><p style="font-size:95%;line-height:1px;">10</p></td>
-  <td><p style="font-size:95%;line-height:1px;">11</p></td>
-  <td><p style="font-size:95%;line-height:1px;">12</p></td>
-  <td><p style="font-size:95%;line-height:1px;">13</p></td>
-  <td><p style="font-size:95%;line-height:1px;">14</p></td>
+  <td><p class="date">10</p></td>
+  <td><p class="date">11</p></td>
+  <td><p class="date">12</p></td>
+  <td><p class="date">13</p></td>
+  <td><p class="date">14</p></td>
 </tr>
 <tr>
   <td><b>Week 4: Exam Week</b></td>
   <td></td>
-  <td><p style="color:red;font-size:100%;">HW Assignment 5 Due</p></td>
-  <td><b><p style="color:red;font-size:115%;">Exam 1 at 7pm</p></b></td>
+  <td><p class="hw">HW Assignment 5 Due</p></td>
+  <td><b><p class="exam">Exam 1 at 7pm</p></b></td>
   <td><p>No Class :)</p></td>
   <td><p>Valentine's Day</p></td>
 </tr>
 <tr>
   <td style="line-height:1px;margin:0;"></td>
-  <td><p style="font-size:95%;line-height:1px;">17</p></td>
-  <td><p style="font-size:95%;line-height:1px;">18</p></td>
-  <td><p style="font-size:95%;line-height:1px;">19</p></td>
-  <td><p style="font-size:95%;line-height:1px;">20</p></td>
-  <td><p style="font-size:95%;line-height:1px;">21</p></td>
+  <td><p class="date">17</p></td>
+  <td><p class="date">18</p></td>
+  <td><p class="date">19</p></td>
+  <td><p class="date">20</p></td>
+  <td><p class="date">21</p></td>
 </tr>
 <tr>
   <td><b>Week 5: Chapters 6-7</b>(Boxplots & Correlation)</td>
   <td><p>President's Day</p></td>
   <td></td>
-  <td><p style="color:blue;font-size:100%;">Chapter 7 Prelecture Due</p></td>
-  <td><p style="color:red;font-size:100%;">HW Assignment 6 Due</p></td>
+  <td><p class="prel">Chapter 7 Prelecture Due</p></td>
+  <td><p class="hw">HW Assignment 6 Due</p></td>
   <td></td>
 </tr>
 <tr>
   <td style="line-height:1px;margin:0;"></td>
-  <td><p style="font-size:95%;line-height:1px;">24</p></td>
-  <td><p style="font-size:95%;line-height:1px;">25</p></td>
-  <td><p style="font-size:95%;line-height:1px;">26</p></td>
-  <td><p style="font-size:95%;line-height:1px;">27</p></td>
-  <td><p style="font-size:95%;line-height:1px;">28</p></td>
+  <td><p class="date">24</p></td>
+  <td><p class="date">25</p></td>
+  <td><p class="date">26</p></td>
+  <td><p class="date">27</p></td>
+  <td><p class="date">28</p></td>
 </tr>
 <tr>
   <td><b>Week 6: Chapters 8-10</b>(Regression & RMSE)</td>
   <td></td>
-  <td><p style="color:red;font-size:100%;">HW Assignment 7 Due</p></td>
-  <td><p style="color:blue;font-size:100%;">Chapter 8 Prelecture Due</p></td>
-  <td><p style="color:red;font-size:100%;">HW Assignment 8 Due</p></td>
-  <td><p style="color:blue;font-size:100%;">Chapter 9 Prelecture Due</p><p style="color:blue;font-size:100%;">Bonus Survey 3 Due</p></td>
+  <td><p class="hw">HW Assignment 7 Due</p></td>
+  <td><p class="prel">Chapter 8 Prelecture Due</p></td>
+  <td><p class="hw">HW Assignment 8 Due</p></td>
+  <td><p class="prel">Chapter 9 Prelecture Due</p><p class="surv">Bonus Survey 3 Due</p></td>
 </tr>
 </table>
 
@@ -163,43 +172,43 @@
 </tr>
 <tr>
   <td style="line-height:1px;margin:0;"></td>
-  <td><p style="font-size:95%;line-height:1px;">02</p></td>
-  <td><p style="font-size:95%;line-height:1px;">03</p></td>
-  <td><p style="font-size:95%;line-height:1px;">04</p></td>
-  <td><p style="font-size:95%;line-height:1px;">05</p></td>
-  <td><p style="font-size:95%;line-height:1px;">06</p></td>
+  <td><p class="date">02</p></td>
+  <td><p class="date">03</p></td>
+  <td><p class="date">04</p></td>
+  <td><p class="date">05</p></td>
+  <td><p class="date">06</p></td>
 </tr>
 <tr>
   <td><b>Week 7: Chapters 11-12</b>(Probability)</td>
-  <td><p style="color:blue;font-size:100%;">Chapter 10 Prelecture Due</p></td>
-  <td><p style="color:red;font-size:100%;">HW Assignment 9 Due</p></td>
-  <td><p style="color:blue;font-size:100%;">Chapter 11 Prelecture Due</p></td>
-  <td><p style="color:red;font-size:100%;">HW Assignment 10 Due</p></td>
-  <td><b><p style="font-size:115%;">Exam 2 Conflict Sign-Up Due</p></b></td>
+  <td><p class="prel">Chapter 10 Prelecture Due</p></td>
+  <td><p class="hw">HW Assignment 9 Due</p></td>
+  <td><p class="prel">Chapter 11 Prelecture Due</p></td>
+  <td><p class="hw">HW Assignment 10 Due</p></td>
+  <td><b><p class="conf">Exam 2 Conflict Sign-Up Due</p></b></td>
 </tr>
 <tr>
   <td style="line-height:1px;margin:0;"></td>
-  <td><p style="font-size:95%;line-height:1px;">09</p></td>
-  <td><p style="font-size:95%;line-height:1px;">10</p></td>
-  <td><p style="font-size:95%;line-height:1px;">11</p></td>
-  <td><p style="font-size:95%;line-height:1px;">12</p></td>
-  <td><p style="font-size:95%;line-height:1px;">13</p></td>
+  <td><p class="date">09</p></td>
+  <td><p class="date">10</p></td>
+  <td><p class="date">11</p></td>
+  <td><p class="date">12</p></td>
+  <td><p class="date">13</p></td>
 </tr>
 <tr>
   <td><b>Week 8: Exam Week</b></td>
-  <td><p style="color:blue;font-size:100%;">Chapter 12 Prelecture Due</p></td>
-  <td><p style="color:red;font-size:100%;">HW Assignment 11 Due</p></td>
-  <td><b><p style="color:red;font-size:115%;">Exam 2 at 7pm</p></b></td>
+  <td><p class="prel">Chapter 12 Prelecture Due</p></td>
+  <td><p class="hw">HW Assignment 11 Due</p></td>
+  <td><b><p class="exam">Exam 2 at 7pm</p></b></td>
   <td></td>
   <td></td>
 </tr>
 <tr>
   <td style="line-height:1px;margin:0;"></td>
-  <td><p style="font-size:95%;line-height:1px;">16</p></td>
-  <td><p style="font-size:95%;line-height:1px;">17</p></td>
-  <td><p style="font-size:95%;line-height:1px;">18</p></td>
-  <td><p style="font-size:95%;line-height:1px;">19</p></td>
-  <td><p style="font-size:95%;line-height:1px;">20</p></td>
+  <td><p class="date">16</p></td>
+  <td><p class="date">17</p></td>
+  <td><p class="date">18</p></td>
+  <td><p class="date">19</p></td>
+  <td><p class="date">20</p></td>
 </tr>
 <tr>
   <td><b>Week 9: Spring Break</b></td>
@@ -211,19 +220,19 @@
 </tr>
 <tr>
   <td style="line-height:1px;margin:0;"></td>
-  <td><p style="font-size:95%;line-height:1px;">23</p></td>
-  <td><p style="font-size:95%;line-height:1px;">24</p></td>
-  <td><p style="font-size:95%;line-height:1px;">25</p></td>
-  <td><p style="font-size:95%;line-height:1px;">26</p></td>
-  <td><p style="font-size:95%;line-height:1px;">27</p></td>
+  <td><p class="date">23</p></td>
+  <td><p class="date">24</p></td>
+  <td><p class="date">25</p></td>
+  <td><p class="date">26</p></td>
+  <td><p class="date">27</p></td>
 </tr>
 <tr>
   <td><b>Week 10: Chapters 13-15</b>(EV, SE, & Random Variables)</td>
   <td></td>
   <td></td>
-  <td><p style="color:blue;font-size:100%;">Chapter 13 Prelecture Due</p></td>
-  <td><p style="color:red;font-size:100%;">HW Assignment 12 Due</p></td>
-  <td><p style="color:blue;font-size:100%;">Chapter 14 Prelecture Due</p></td>
+  <td><p class="prel">Chapter 13 Prelecture Due</p></td>
+  <td><p class="hw">HW Assignment 12 Due</p></td>
+  <td><p class="prel">Chapter 14 Prelecture Due</p></td>
 </tr>
 </table>
 
@@ -240,83 +249,83 @@
 </tr>
 <tr>
   <td style="line-height:1px;margin:0;"></td>
-  <td><p style="font-size:95%;line-height:1px;">30</p></td>
-  <td><p style="font-size:95%;line-height:1px;">31</p></td>
-  <td><p style="font-size:95%;line-height:1px;">01</p></td>
-  <td><p style="font-size:95%;line-height:1px;">02</p></td>
-  <td><p style="font-size:95%;line-height:1px;">03</p></td>
+  <td><p class="date">30</p></td>
+  <td><p class="date">31</p></td>
+  <td><p class="date">01</p></td>
+  <td><p class="date">02</p></td>
+  <td><p class="date">03</p></td>
 </tr>
 <tr>
   <td><b>Week 11: Chapters 15-16</b>(Box Models & Probability Histograms)</td>
   <td></td>
-  <td><p style="color:red;font-size:100%;">HW Assignment 13 Due</p></td>
-  <td><p style="color:blue;font-size:100%;">Chapter 15 Prelecture Due</p></td>
-  <td><p style="color:red;font-size:100%;">HW Assignment 14 Due</p></td>
-  <td><b><p style="font-size:115%;">Exam 3 Conflict Sign-Up Due</p></b><p style="color:blue;font-size:100%;">Chapter 16 Prelecture Due</p><p style="color:blue;font-size:100%;">Bonus Survey 4 Due</p></td>
+  <td><p class="hw">HW Assignment 13 Due</p></td>
+  <td><p class="prel">Chapter 15 Prelecture Due</p></td>
+  <td><p class="hw">HW Assignment 14 Due</p></td>
+  <td><b><p class="conf">Exam 3 Conflict Sign-Up Due</p></b><p class="prel">Chapter 16 Prelecture Due</p><p class="surv">Bonus Survey 4 Due</p></td>
 </tr>
 <tr>
   <td style="line-height:1px;margin:0;"></td>
-  <td><p style="font-size:95%;line-height:1px;">06</p></td>
-  <td><p style="font-size:95%;line-height:1px;">07</p></td>
-  <td><p style="font-size:95%;line-height:1px;">08</p></td>
-  <td><p style="font-size:95%;line-height:1px;">09</p></td>
-  <td><p style="font-size:95%;line-height:1px;">10</p></td>
+  <td><p class="date">06</p></td>
+  <td><p class="date">07</p></td>
+  <td><p class="date">08</p></td>
+  <td><p class="date">09</p></td>
+  <td><p class="date">10</p></td>
 </tr>
 <tr>
   <td><b>Week 12: Exam Week</b></td>
   <td></td>
-  <td><p style="color:red;font-size:100%;">HW Assignment 15 Due</p></td>
-  <td><b><p style="color:red;font-size:115%;">Exam 3 at 7pm</p></b><p style="color:blue;font-size:100%;">Chapter 17 Prelecture Due</p></td>
-  <td><p style="color:red;font-size:100%;">HW Assignment 16 Due</p></td>
-  <td><p style="color:blue;font-size:100%;">Chapter 18 Prelecture Due</p></td>
+  <td><p class="hw">HW Assignment 15 Due</p></td>
+  <td><b><p class="exam">Exam 3 at 7pm</p></b><p class="prel">Chapter 17 Prelecture Due</p></td>
+  <td><p class="hw">HW Assignment 16 Due</p></td>
+  <td><p class="prel">Chapter 18 Prelecture Due</p></td>
 </tr>
 <tr>
   <td style="line-height:1px;margin:0;"></td>
-  <td><p style="font-size:95%;line-height:1px;">13</p></td>
-  <td><p style="font-size:95%;line-height:1px;">14</p></td>
-  <td><p style="font-size:95%;line-height:1px;">15</p></td>
-  <td><p style="font-size:95%;line-height:1px;">16</p></td>
-  <td><p style="font-size:95%;line-height:1px;">17</p></td>
+  <td><p class="date">13</p></td>
+  <td><p class="date">14</p></td>
+  <td><p class="date">15</p></td>
+  <td><p class="date">16</p></td>
+  <td><p class="date">17</p></td>
 </tr>
 <tr>
   <td><b>Week 13: Chapters 17-19</b>(Sampling & Inference)</td>
   <td></td>
-  <td><p style="color:red;font-size:100%;">HW Assignment 17 Due</p></td>
+  <td><p class="hw">HW Assignment 17 Due</p></td>
   <td></td>
   <td></td>
   <td></td>
 </tr>
 <tr>
   <td style="line-height:1px;margin:0;"></td>
-  <td><p style="font-size:95%;line-height:1px;">20</p></td>
-  <td><p style="font-size:95%;line-height:1px;">21</p></td>
-  <td><p style="font-size:95%;line-height:1px;">22</p></td>
-  <td><p style="font-size:95%;line-height:1px;">23</p></td>
-  <td><p style="font-size:95%;line-height:1px;">24</p></td>
+  <td><p class="date">20</p></td>
+  <td><p class="date">21</p></td>
+  <td><p class="date">22</p></td>
+  <td><p class="date">23</p></td>
+  <td><p class="date">24</p></td>
 </tr>
 <tr>
   <td><b>Week 14: Chapters 20-22</b>(Hypothesis Testing: Z & t Tests)</td>
   <td></td>
   <td></td>
-  <td><p style="color:blue;font-size:100%;">Chapter 20 Prelecture Due</p></td>
-  <td><p style="color:red;font-size:100%;">HW Assignment 18 Due</p></td>
-  <td><p style="color:blue;font-size:100%;">Chapter 21 Prelecture Due</p></td>
+  <td><p class="prel">Chapter 20 Prelecture Due</p></td>
+  <td><p class="hw">HW Assignment 18 Due</p></td>
+  <td><p class="prel">Chapter 21 Prelecture Due</p></td>
 </tr>
 <tr>
   <td style="line-height:1px;margin:0;"></td>
-  <td><p style="font-size:95%;line-height:1px;">27</p></td>
-  <td><p style="font-size:95%;line-height:1px;">28</p></td>
-  <td><p style="font-size:95%;line-height:1px;">29</p></td>
-  <td><p style="font-size:95%;line-height:1px;">30</p></td>
-  <td><p style="font-size:95%;line-height:1px;">01</p></td>
+  <td><p class="date">27</p></td>
+  <td><p class="date">28</p></td>
+  <td><p class="date">29</p></td>
+  <td><p class="date">30</p></td>
+  <td><p class="date">01</p></td>
 </tr>
 <tr>
   <td><b>Week 15: Chapters 22-24</b>(Hypothesis Testing: Chi Square Tests)</td>
   <td></td>
-  <td><p style="color:red;font-size:100%;">HW Assignment 19 Due</p></td>
-  <td><p style="color:blue;font-size:100%;">Chapter 22 Prelecture Due</p></td>
-  <td><p style="color:red;font-size:100%;">HW Assignment 20 Due</p></td>
-  <td><p style="color:blue;font-size:100%;">Chapter 23 Part 1 Prelecture Due</p></td>
+  <td><p class="hw">HW Assignment 19 Due</p></td>
+  <td><p class="prel">Chapter 22 Prelecture Due</p></td>
+  <td><p class="hw">HW Assignment 20 Due</p></td>
+  <td><p class="prel">Chapter 23 Part 1 Prelecture Due</p></td>
 </tr>
 </table>
 
@@ -333,34 +342,34 @@
 </tr>
 <tr>
   <td style="line-height:1px;margin:0;"></td>
-  <td><p style="font-size:95%;line-height:1px;">04</p></td>
-  <td><p style="font-size:95%;line-height:1px;">05</p></td>
-  <td><p style="font-size:95%;line-height:1px;">06</p></td>
-  <td><p style="font-size:95%;line-height:1px;">07</p></td>
-  <td><p style="font-size:95%;line-height:1px;">08</p></td>
+  <td><p class="date">04</p></td>
+  <td><p class="date">05</p></td>
+  <td><p class="date">06</p></td>
+  <td><p class="date">07</p></td>
+  <td><p class="date">08</p></td>
 </tr>
 <tr>
   <td><b>Week 16: Last Week of Class</b>(Final Exam Review)</td>
   <td></td>
-  <td><p style="color:blue;font-size:100%;">Chapter 23 Part 2 Prelecture Due</p></td>
-  <td><p style="color:red;font-size:100%;">HW Assignment 21 Due</p><p style="color:blue;font-size:100%;">Bonus Survey 5 Due</p></td>
+  <td><p class="prel">Chapter 23 Part 2 Prelecture Due</p></td>
+  <td><p class="hw">HW Assignment 21 Due</p><p class="surv">Bonus Survey 5 Due</p></td>
   <td><p><b>Reading Day</b><br>No Class :)</p></td>
   <td><p>No Class :)</p></td>
 </tr>
 <tr>
   <td style="line-height:1px;margin:0;"></td>
-  <td><p style="font-size:95%;line-height:1px;">11</p></td>
-  <td><p style="font-size:95%;line-height:1px;">12</p></td>
-  <td><p style="font-size:95%;line-height:1px;">13</p></td>
-  <td><p style="font-size:95%;line-height:1px;">14</p></td>
-  <td><p style="font-size:95%;line-height:1px;">15</p></td>
+  <td><p class="date">11</p></td>
+  <td><p class="date">12</p></td>
+  <td><p class="date">13</p></td>
+  <td><p class="date">14</p></td>
+  <td><p class="date">15</p></td>
 </tr>
 <tr>
   <td><b>Week 17: Finals Week</b></td>
-  <td><b><p style="color:red;font-size:115%;">L1 (In Person Class) Final from 1:30pm-4:30pm</p></b></td>
-  <td><b><p style="color:red;font-size:115%;">KF: (Karle's Online Class) Final from: 8am-11am</p></b></td>
+  <td><b><p class="exam">L1 (In Person Class) Final from 1:30pm-4:30pm</p></b></td>
+  <td><b><p class="exam">KF: (Karle's Online Class) Final from: 8am-11am</p></b></td>
   <td></td>
-  <td><b><p style="color:red;font-size:115%;">ONL (Albert's Online Class) Final from: 7pm-10pm</p></b></td>
+  <td><b><p class="exam">ONL (Albert's Online Class) Final from: 7pm-10pm</p></b></td>
   <td><p><b>SUMMER BREAK!!!</b><br><br>Have a wonderful break!</p></td>
 </tr>
 </table>

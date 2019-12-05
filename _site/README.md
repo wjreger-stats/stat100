@@ -18,7 +18,6 @@
 For any questions about the site (data entry, structure, bugs, etc) please email me at wreger2@illinois.edu
 
 Update:
-- build in class for calendar elements to adjust correctly to screen size
 - reduce horizontal padding within calendar cells
 - fix code to generate exam schedules
 - vertical centre stat lecture youtube link

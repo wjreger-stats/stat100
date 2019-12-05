@@ -437,10 +437,12 @@ hr.socket {
   margin-bottom: 0px;
 }
 
-.table-responsive {
+.calendar .table-responsive {
   margin-bottom: -60px;
 }
 
-
+.calendar td {
+  font-size:60%;
+}
 
 }
