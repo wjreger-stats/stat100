@@ -6,36 +6,41 @@ layout: content
 title: Exams
 ---
 
-# {{ site.short-title}} Exam Schedule {{ site.semester }}
-##### <b style="color:red;">Important Info:</b> There will be three midterm exams and a comprehensive final exam. There will be NO makeup exams and NO formula sheets may be used on any exam. If you miss an exam and have written proof of a valid reason, then we will substitute your final exam score for the missed exam.
-
-**Exam schedule section is under repair at this time**
+<h1>{{ site.short-title}} Exam Schedule {{ site.semester }}</h1>
+<h4><b style="color:red;">Important Info:</b> There will be three midterm exams and a comprehensive final exam. There will be NO makeup exams and NO formula sheets may be used on any exam. If you miss an exam and have written proof of a valid reason, then we will substitute your final exam score for the missed exam.<h4>
 
 {% for exam in site.data.info.exams %}
-##  {{ site.short-title }} {{ exam.name }}
-##### **Date:** {{ exam.date }}
-##### **Time:** {{ exam.time }}
-##### **Covers:** {{ exam.content }}
-##### **Locations:** {{ exam.locations }}
+<h2>{{ site.short-title }} {{ exam.name }}</h2>
+<h4><b>Date: {{ exam.date }}</b></h4>
+<h4><b>Time: {{ exam.time }}</b></h4>
+<h4><b>Covers: {{ exam.content }}</b></h4>
+<h4><b>Locations: {{ exam.locations }}</b></h4>
 {% if exam.base-name == 'Exam1' %}
 {% include Exam1-schedule.html %}
-{% endfor %}
-##### **Conflict Exam:** {{ exam.conflict }}
+{% endif %}
+<h4><b>Conflict Exam: {{ exam.conflict }}</b></h4>
 {% endfor %}
 
-## Final Exam
-
-* I use the final exam time assigned to our class by the university.<br>
-* See <b><a href="{{ site.data.info.uiucfinals }}" target="\_blank">Official University Final Exams Schedules and Policies</a></b>.<br>
-* The final cumulative for Chapters 1-24 <b>(ALL chapters in notebook)</b><br>
+<h2>Final Exam</h2>
+<ul>
+<li>
+ I use the final exam time assigned to our class by the university.<br>
+</li>
+<li>
+See <b><a href="{{ site.data.info.uiucfinals }}" target="\_blank">Official University Final Exams Schedules and Policies</a></b>.<br>
+</li>
+<li>
+The final cumulative for Chapters 1-24 <b>(ALL chapters in notebook)</b><br>
+</li>
+</ul>
 
 {% include final-schedule.html %}
 
-# Practice Exams from Past Semesters
+<h1>Practice Exams from Past Semesters</h1>
 
 {% include practice-exams.html %}
 
-## Final Exams
+<h2>Final Exams</h2>
 <p style="color:red;">***Warning***
 None of the practice finals have box plot questions.
 There WILL be some on the final! Please study accordingly.
