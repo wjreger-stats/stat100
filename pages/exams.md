@@ -15,9 +15,7 @@ title: Exams
 <h4><b>Time: {{ exam.time }}</b></h4>
 <h4><b>Covers: {{ exam.content }}</b></h4>
 <h4><b>Locations: {{ exam.locations }}</b></h4>
-{% if exam.base-name == 'Exam1' %}
-{% include Exam1-schedule.html %}
-{% endif %}
+
 <h4><b>Conflict Exam: {{ exam.conflict }}</b></h4>
 {% endfor %}
 
