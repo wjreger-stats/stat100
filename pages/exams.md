@@ -17,9 +17,7 @@ title: Exams
 ##### **Time:** {{ exam.time }}
 ##### **Covers:** {{ exam.content }}
 ##### **Locations:** {{ exam.locations }}
-{% if exam.show-schedule == "T" %}
-{% include {{ exam.schedule }} %}
-{% endif %}
+
 ##### **Conflict Exam:** {{ exam.conflict }}
 {% endfor %}
 

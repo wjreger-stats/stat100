@@ -175,7 +175,7 @@ visit:
 - name: "Department of Statistics"
   url: "https://stat.illinois.edu"
 
-- name: '<i class="fab fa-youtube"></i> StatLecture 100'
+- name: '<i class="fab fa-youtube" style="height:17px;"></i> StatLecture 100'
   url: "https://www.youtube.com/channel/UC1NWUJFnBSwciUP5Fniy_7w"
 
 # Course webpages
