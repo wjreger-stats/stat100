@@ -69,8 +69,6 @@ exams:
   time: "7:00-8:30pm"
   content: "Chapter 1-Chapter 6 Part 1"
   locations: ""
-  show-schedule: T
-  schedule: "Exam1-schedule.html"
   show-exams: T
   conflict: "<i>same day from 4:30-6:00pm</i><br>Location for All Last Names and Sections: Foellinger Auditorium<br>"
 
@@ -80,8 +78,6 @@ exams:
   time: "7:00-8:30pm"
   content: "Chapter 6 Part 2-Chapter 12"
   locations: "Same as exam 1"
-  show-schedule: F
-  schedule: "Exam1-schedule.html"
   show-exams: T
   conflict: "<i>same day from 4:30-6:00pm</i><br>Location for All Last Names and Sections: Foellinger Auditorium<br>"
 
@@ -91,8 +87,6 @@ exams:
   time: "7:00-8:30pm"
   content: "Chapters 13-19"
   locations: "Same as exam 1 & 2"
-  show-schedule: F
-  schedule: "Exam1-schedule.html"
   show-exams: T
   conflict: "<i>same day from 4:30-6:00pm</i><br>Location for All Last Names and Sections: Foellinger Auditorium<br>"
 
