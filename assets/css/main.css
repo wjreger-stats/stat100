@@ -417,18 +417,28 @@ hr.socket {
 
 .jumbotron {
   padding: 0 5px;
+  padding-bottom: 1px;
+  padding-top: 25px;
 }
 
 .syllabus.narrow .card, .exams.narrow .card, .faqs.narrow .card {
   padding: 0 30px;
+  margin-bottom: -20px;
 }
 
 .calendar.narrow .card {
   padding: 0 5px;
+  margin-bottom: -20px;
 }
 
 .calendar .calendar-head {
-  padding: 0 20px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.table-responsive {
+  margin-bottom: -60px;
 }
 
 

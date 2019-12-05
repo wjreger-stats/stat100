@@ -11,6 +11,18 @@ title: Exams
 
 **Exam schedule section is under repair at this time**
 
+{% for exam in site.data.info.exams %}
+##  {{ site.short-title }} {{ exam.name }}
+##### **Date:** {{ exam.date }}
+##### **Time:** {{ exam.time }}
+##### **Covers:** {{ exam.content }}
+##### **Locations:** {{ exam.locations }}
+{% if exam.show-schedule == "T" %}
+{% include {{ exam.base-name }}-schedule.html %}
+{% endif %}
+##### **Conflict Exam:** {{ exam.conflict }}
+{% endfor %}
+
 ## Final Exam
 
 * I use the final exam time assigned to our class by the university.<br>
