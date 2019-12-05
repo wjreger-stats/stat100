@@ -432,8 +432,7 @@ hr.socket {
 }
 
 .calendar .calendar-head {
-  padding-top: 20px;
-  padding-bottom: 0px;
+  padding: 0px 30px;
   margin-bottom: 0px;
 }
 
@@ -442,7 +441,7 @@ hr.socket {
 }
 
 .calendar td {
-  font-size:60%;
+  font-size:50%;
 }
 
 }
