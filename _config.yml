@@ -16,8 +16,7 @@
 title: Statistics 100
 short-title: STAT 100
 semester: Spring 2020
-short-semester: "F19"
-email: your-email@example.com
+short-semester: "S20"
 description: >- # this means to ignore newlines until "baseurl:"
   We are dedicated to helping students on the U of I campus learn and understand basic statistical concepts so they can understand and make sense of things that are interesting or important to them.
 baseurl: "/stat100" # the subpath of your site, e.g. /blog

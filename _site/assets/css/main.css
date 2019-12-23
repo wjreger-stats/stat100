@@ -1,4 +1,3 @@
-
 /*-- Font Import --*/
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap');
 
@@ -59,11 +58,9 @@ body {
   color: #e84a27;
 }
 
-/*-- Landing Page Styling --*/
-/*--.home-inner {
-  background-image: url("{{ site.baseurl }}/assets/img/stat100desk.jpg");
-}--*/
 
+
+/*-- Landing Page Styling --*/
 .layer {
   background-color: rgba(0,0,0,0.5);
   position: absolute;
@@ -105,7 +102,29 @@ body {
   font-weight: bold;
 }
 
-/*-- Syllabus Styling --*/
+/* Announcements Styling */
+.announcements h2 {
+  color: #13294b;
+  font-size: 2vw;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.announcements p {
+  color: #13294b;
+  font-size: 1.1vw;
+}
+.announcements {
+  margin: 0 auto;
+  padding: 0;
+  text-transform: none;
+}
+.announcements .card {
+  margin: -28px 20px 0px 20px;
+  padding: 0 auto;
+}
+
+
+/*-- Information Pages Styling --*/
 .card {
   padding: 0 7%;
 }
@@ -161,7 +180,6 @@ body {
   table-layout: fixed;
 }
 
-
 /*-- Sections Styling --*/
 
 .narrow {
@@ -209,10 +227,6 @@ h3.heading {
   background-color: #e84a27;
   margin: 0 auto 30px;
 }
-
-/* .fixed {
-  background-image: url("img/stat100book.jpg");
-} */
 
 .dark {
   background-color: rgba(0,0,0,0.2);
@@ -286,7 +300,47 @@ a:hover {
 }
 
 
-
+.calendar th {
+  width=16.66%;
+  height:30px;
+  text-align:center;
+  line-height: 1em;
+}
+td {
+  text-align:center;
+  padding:0;
+  margin:0;
+}
+table {
+  table-layout:fixed;
+  margin:0;
+  padding:0;
+}
+.calendar p+p {
+  margin-top: 15px;
+}
+.calendar p {
+  margin:0;
+}
+.calendar b {
+  display: block;
+  margin-bottom: 15px;
+}
+.date {
+  font-size:95%;line-height:1px;
+}
+.hw {
+  color:red;font-size:100%;
+}
+.prel, .surv {
+  color:blue;font-size:100%;
+}
+.exam {
+  color:red;font-size:115%;
+}
+.conf {
+  font-size:115%;
+}
 
 
 /*-- Footer Styling --*/
@@ -327,121 +381,115 @@ hr.socket {
   margin-top: 50px;
 }
 
-
-
-
-
-
 /*-- Media Styling --*/
 
 @media (max-width: 767px) {
+  /* Home Page Styling */
   .caption h1 {
     font-size: 30px;
     letter-spacing: 2px;
     padding-bottom: 10px;
   }
-
   .caption h3 {
     font-size: 23px;
     padding-bottom: 20px;
   }
-
   .btn-lg {
     padding: 10px 15px;;
     font-size: 15px;;
     font-weight: bold;
   }
-
   .landing-heading-underline {
     width:200px;
   }
-
+  /* Card Styling */
   .narrow h1 {
     font-size: 25px;
   }
-
   .narrow h2 {
     font-size: 23px;
   }
-
   .narrow h3 {
     font-size: 21px;
   }
-
   .narrow h4 {
     font-size: 19px;
   }
-
-
-
+  /* Information Pages Styling */
   #syllabus h1, #exams h1, #calendar h1, #faqs h1 {
     font-size: 25px;
   }
-
   #syllabus h2, #exams h2, #faqs h2 {
     font-size: 20px;
   }
-
   #syllabus h3 {
     font-size: 15px;
   }
-
   #syllabus li {
     font-size: 15px;
   }
-
   #exams h4 {
     font-size: 15px;
   }
-
-#faqs button, #faqs .card-body {
-  font-size: 12px;
-}
-
-.syllabus {
-  width: 100%;
-}
-
-.syllabus.narrow, .calendar.narrow, .faqs.narrow, .exams.narrow {
-  width: 100%;
-  padding-top: 5px;
-}
-
-.testimonials li {
-  font-size: 15px;
-}
-
-.testimonials ul.narrow {
-  width: 100%;
-}
-
-.jumbotron {
-  padding: 0 5px;
-  padding-bottom: 1px;
-  padding-top: 25px;
-}
-
-.syllabus.narrow .card, .exams.narrow .card, .faqs.narrow .card {
-  padding: 0 30px;
-  margin-bottom: -20px;
-}
-
-.calendar.narrow .card {
-  padding: 0 5px;
-  margin-bottom: -20px;
-}
-
-.calendar .calendar-head {
-  padding: 0px 30px;
-  margin-bottom: 0px;
-}
-
-.calendar .table-responsive {
-  margin-bottom: -60px;
-}
-
-.calendar td {
-  font-size:50%;
-}
-
+  #faqs button, #faqs .card-body {
+    font-size: 12px;
+  }
+  .syllabus {
+    width: 100%;
+  }
+  .syllabus.narrow, .calendar.narrow, .faqs.narrow, .exams.narrow {
+    width: 100%;
+    padding-top: 5px;
+  }
+  .testimonials li {
+    font-size: 15px;
+  }
+  .testimonials ul.narrow {
+    width: 100%;
+  }
+  .jumbotron {
+    padding: 0 5px;
+    padding-bottom: 1px;
+    padding-top: 25px;
+  }
+  .syllabus.narrow .card, .exams.narrow .card, .faqs.narrow .card {
+    padding: 0 30px;
+    margin-bottom: -20px;
+  }
+  /* Calendar Styling */
+  .calendar.narrow .card {
+    padding: 0 5px;
+    margin-bottom: -20px;
+  }
+  .calendar .calendar-head {
+    padding: 0px 30px;
+    margin-bottom: 0px;
+  }
+  .calendar .table-responsive {
+    margin-bottom: -60px;
+  }
+  .calendar td {
+    font-size:50%;
+  }
+  /* Announcements Styling */
+  .announcements h2 {
+    color: #13294b;
+    font-size: 4vw;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .announcements p {
+    color: #13294b;
+    font-size: 2.3vw;
+  }
+  .announcements {
+    margin: 0 auto;
+    padding: 0;
+    text-transform: none;
+  }
+  .announcements .card {
+    margin: 20px -50px 0px -50px;
+    padding: 0 auto;
+    height: auto;
+  }
 }

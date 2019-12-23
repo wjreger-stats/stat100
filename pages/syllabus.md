@@ -26,12 +26,12 @@ title: syllabus
     <br>You can also google "stat 100" :)
 
 ## Course Materials
-1. **Required Workbook: {{ site.data.info.textbook.name }} {{ site.data.info.textbook.edition }} by {{ site.data.info.textbook.authors}}.**
-  * Available at the Illini Union Bookstore for {{ site.data.info.textbook.price }}.
-  * We will fill out this notebook together in class for extra credit.
-  * Only the {{ site.data.info.textbook.edition }} will be accepted for extra credit (no previous versions).
-2. **Required Calculator:** Any non-programmable calculator is accepted (no phones, graphing calculators, etc.) I recommend <b><a href="{{ site.data.info.calculator }}" target="\_blank">this one!</a></b>
-3. **Optional iClicker for in-person section:** Each day in class, a few iClicker questions will be asked and you can get extra credit for them.<br>
+* **Required Workbook: {{ site.data.info.textbook.name }} {{ site.data.info.textbook.edition }} by {{ site.data.info.textbook.authors}}.**
+    1. Available at the Illini Union Bookstore for {{ site.data.info.textbook.price }}.
+    2. We will fill out this notebook together in class for extra credit.
+    3. Only the {{ site.data.info.textbook.edition }} will be accepted for extra credit (no previous versions).
+* **Required Calculator:** Any non-programmable calculator is accepted (no phones, graphing calculators, etc.) I recommend <b><a href="{{ site.data.info.calculator }}" target="\_blank">this one!</a></b>
+* **Optional iClicker for in-person section:** Each day in class, a few iClicker questions will be asked and you can get extra credit for them.<br>
 \*Online class - do not buy an iClicker, you'll get extra credit points in other ways (see bonus points).
 
 ## Class Times
@@ -51,11 +51,11 @@ title: syllabus
 * If you experience a glitch in Lon Capa/Compass, first, try logging out and logging back in. If this doesn't work, send an email to our tech doc, {{ site.data.info.technical.name }} <b><a href="mailto:{{ site.data.info.technical.email }}">{{ site.data.info.technical.email }}</a></b> describing the problem. Please make sure to include a screenshot of the error in your e-mail. You can also stop by office hours and get help in person!
 
 ## Homework Schedule
-* Homework is due {{ site.data.info.hw-duedates }} (see <b><a href="{{ site.data.info.calendar-link }}">calendar</a></b>) on <b><a href="http://www.lon-capa.illinois.edu/" target="\_blank">Lon-Capa</a></b>. You can ask questions on the Lon Capa discussion boards and stop by office hours any time to get homework help!
+* Homework is due {{ site.data.info.hw-duedates }} (see <b><a href="{{ site.baseurl }}/pages/calendar.html">calendar</a></b>) on <b><a href="http://www.lon-capa.illinois.edu/" target="\_blank">Lon-Capa</a></b>. You can ask questions on the Lon Capa discussion boards and stop by office hours any time to get homework help!
 * <b style="color:red;">We do NOT accept late hw, but we do drop your 3 lowest HW scores. This means you can miss 3 HW assignments without any penalty!</b>
 
 ## Exam Schedule
-* There will be 3 evening exams and a cumulative final. See the <b><a href="{{ site.data.info.exam-link }}">Exam Schedule</a></b> for dates, times, and locations.
+* There will be 3 evening exams and a cumulative final. See the <b><a href="{{ site.baseurl }}/pages/exams.html">Exam Schedule</a></b> for dates, times, and locations.
 
 ## Grade for Required Work
 
@@ -82,15 +82,15 @@ title: syllabus
   2. **Lon Capa Surveys**--20 bonus points
   3. **Completed Notebook**--40 bonus points
 * <b><u>Descriptions</u></b>
-  * **Pre-Lecture bonus points**<br>
+  1. **Pre-Lecture bonus points**<br>
   Each class there will be a short pre-lecture videos posted on Lon Capa followed by a few questions. The pre-lectures are designed to give you a preview of the basic concepts you'll see in the actual lectures.
-  * **Lon Capa Surveys**<br>
+  2. **Lon Capa Surveys**<br>
   There will be 5 surveys due on the first Friday of each month (see the course calendar). Each survey is worth 4 bonus points. The surveys are all anonymous. Lon Capa just records whether or not you submitted a survey, not who submitted which answer. You must answer every question on the survey to get the 4 points.
-  * **Completed Notebook**<br>
+  3. **Completed Notebook**<br>
   We will look over your notebook at the final. You'll get full credit if you have all the pages from lecture filled in. You may skip ALL the practice exams and summary pages. If you're missing more than 3 required pages don't bother to turn in the notebook because you will receive negative bonus points. You may pick up your notebook at the end of your exam to keep forever.
-  * **iClickers (in person class only!)**<br>
+  4. **iClickers (in person class only!)**<br>
   iClicker questions will be asked each day in class. You will get 1 bonus point per class period if you answer all of the iClicker questions. You can skip 2 days and still get full iClicker points.
-  * <b><u>* Bonus points can only help you.</u> You can still get 100% in this class without doing any bonus work.</b>
+  5. <b><u>* Bonus points can only help you.</u> You can still get 100% in this class without doing any bonus work.</b>
 * **Bonus points are figured into your grade as follows:**
 <img src="{{ site.baseurl }}/assets/img/BonusGrade.png" style="width:100%;">
   * Suppose at the end of the semester you have a 75% average and you did 100% of the bonus work.
