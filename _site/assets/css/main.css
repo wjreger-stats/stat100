@@ -385,6 +385,9 @@ hr.socket {
 
 @media (max-width: 767px) {
   /* Home Page Styling */
+  .caption {
+    top:25%;
+  }
   .caption h1 {
     font-size: 30px;
     letter-spacing: 2px;
@@ -489,7 +492,7 @@ hr.socket {
     text-transform: none;
   }
   .announcements .card {
-    margin: 20px -50px 0px -50px;
+    margin: 40px -40px 0px -40px;
     padding: 0 auto;
     height: auto;
   }
