@@ -129,13 +129,13 @@ body {
   padding: 0 7%;
 }
 
-#syllabus h1, #exams h1, #faqs h1, #calendar h1 {
+#syllabus h1, #exam-schedule h1, #practice-exams h1, #faqs h1, #calendar h1 {
   font-weight: bold;
   font-size: 40px;
   color: #13294b;
 }
 
-#syllabus h2, #exams h2, #faqs h2 {
+#syllabus h2, #exam-schedule h2, #practice-exams h2, #faqs h2 {
   font-weight: bold;
   font-size: 30px;
   color: #13294b;
@@ -144,7 +144,7 @@ body {
   margin-top: 8px;
 }
 
-#exams h4 {
+#exam-schedule h4, #practice-exams h4 {
   font-size: 20px;
 }
 
@@ -176,7 +176,7 @@ body {
     margin-bottom: 15px;
 }
 
-#exams table {
+#exam-schedule table, #practice-exams table {
   table-layout: fixed;
 }
 
@@ -419,10 +419,10 @@ hr.socket {
     font-size: 19px;
   }
   /* Information Pages Styling */
-  #syllabus h1, #exams h1, #calendar h1, #faqs h1 {
+  #syllabus h1, #exam-schedule h1, #practice-exams h1, #calendar h1, #faqs h1 {
     font-size: 25px;
   }
-  #syllabus h2, #exams h2, #faqs h2 {
+  #syllabus h2, #exam-schedule h2, #practice-exams h2, #faqs h2 {
     font-size: 20px;
   }
   #syllabus h3 {
@@ -431,7 +431,7 @@ hr.socket {
   #syllabus li {
     font-size: 15px;
   }
-  #exams h4 {
+  #exam-schedule h4, #practice-exams h4 {
     font-size: 15px;
   }
   #faqs button, #faqs .card-body {
