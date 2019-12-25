@@ -6,7 +6,7 @@ announcements: >-
   <div class="sub-heading-underline" style="margin:0 auto 10px auto; width: 24%;"></div>
 
   <p>
-  
+
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
   </p>
@@ -40,6 +40,7 @@ sections:
     Welcome to attend in-person anytime.
 
 # Class times (from syllabus "Class Times")
+# Very important to write "In Person Section" or "Online Section" exactly.
 classes:
 - name: "L1"
   type: "In Person Section"
@@ -47,7 +48,7 @@ classes:
   place: "-- 101 Armory"
 
 - name: "L2"
-  type: "Online Section"
+  type: "In Person Section"
   time: "Tues/Thurs 11:00am-12:20pm"
   place: "-- Lincoln Hall Theater"
 
@@ -108,6 +109,7 @@ exams:
 
 show-finals: F
 
+# This is for code that builds the practice exams tables.
 exam-years:
   first: "S19" # Most recent semester
   full1: "Spring 2019"

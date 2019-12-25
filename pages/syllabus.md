@@ -72,12 +72,12 @@ title: syllabus
 ## Bonus Work
 **Bonus Points — You may earn between 0 and 100 Bonus Points.**
 * **Everyone may earn between 0 and 100 Bonus Points.** Every bonus point earned helps your overall grade, but even if you do no bonus work, you can still get 100% for the course. In other words, bonus points can only help you. Bonus points are extra credit.
-* **IN PERSON CLASS (L1) Bonus Points (100 total bonus points)**
+* **IN PERSON CLASS ({% assign in_person = site.data.info.classes | where: 'type', 'In Person Section' %}{% if in_person.size == 2 %}{% for class in in_person %}{% if class == in_person.first %}{{ class.name }} & {% else %}{{ class.name }}{% endif %}{% endfor %}{% elsif in_person.size > 2 %}{% for class in in_person %}{% if class == in_person.first %}{{ class.name }}{% elsif class == in_person.last %} & {{ class.name }}{% else %}, {{ class.name }}{% endif %}{% endfor %}{% else %}{% for class in in_person %}{{ class.name }}{% endfor %}{% endif %}) Bonus Points (100 total bonus points)**
   1. **Pre-Lecture bonus points**--20 bonus points
   2. **iClickers**--30 bonus points
   3. **Lon Capa Surveys**--20 bonus points
   4. **Completed Notebook**--30 bonus points
-* **ONLINE CLASSES (KF & ONL) Bonus Points (100 total bonus points)**
+* **ONLINE CLASSES ({% assign online = site.data.info.classes | where: 'type', 'Online Section' %}{% if online.size == 2 %}{% for class in online %}{% if class == online.first %}{{ class.name }} & {% else %}{{ class.name }}{% endif %}{% endfor %}{% elsif online.size > 2 %}{% for class in online %}{% if class == online.first %}{{ class.name }}{% elsif class == online.last %} & {{ class.name }}{% else %}, {{ class.name }}{% endif %}{% endfor %}{% else %}{% for class in online %}{{ class.name }}{% endfor %}{% endif %}) Bonus Points (100 total bonus points)**
   1. **Pre-Lecture bonus points**--40 bonus points
   2. **Lon Capa Surveys**--20 bonus points
   3. **Completed Notebook**--40 bonus points
