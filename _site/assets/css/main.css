@@ -440,7 +440,7 @@ hr.socket {
   .syllabus {
     width: 100%;
   }
-  .syllabus.narrow, .calendar.narrow, .faqs.narrow, .exams.narrow {
+  .syllabus.narrow, .calendar.narrow, .faqs.narrow, .exam-schedule.narrow, .practice-exams.narrow {
     width: 100%;
     padding-top: 5px;
   }
@@ -455,7 +455,7 @@ hr.socket {
     padding-bottom: 1px;
     padding-top: 25px;
   }
-  .syllabus.narrow .card, .exams.narrow .card, .faqs.narrow .card {
+  .syllabus.narrow .card, .exam-schedule.narrow .card, .practice-exams.narrow .card, .faqs.narrow .card {
     padding: 0 30px;
     margin-bottom: -20px;
   }
