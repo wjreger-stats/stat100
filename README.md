@@ -1,4 +1,4 @@
-# UIUC Statistics 100 (Flanagan) Site for Spring 2020 (Draft)
+# UIUC Statistics 100 (Flanagan) Site for Spring 2020
 
 ## General Guide to Managing the STAT 100 Website.
   - Weekly announcements, semester name, section info, class times, instructor info, course webpages, textbook info, office hours, technical support info, section info in bonus work section of syllabus, exam schedule info, practise exam info and settings, FAQs info (that changes from semester to semester, etc. can all be updated in _data/info.yml.
@@ -36,7 +36,7 @@
   - pages folder:
     - Any .md file may need to be changed if less frequent than semester to semester changes need to be made.
 
-For any questions about the site (data entry, structure, bugs, etc) please email me at wreger2@illinois.edu
+## Updates needed:
+  - add new background photos
 
-Updates needed:
-- add new background photos
+For any questions about the site (data entry, structure, bugs, etc) please email me at wreger2@illinois.edu
