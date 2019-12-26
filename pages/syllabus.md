@@ -62,8 +62,11 @@ title: syllabus
 * **Grade for required work**
   1. 3 Exams: 60% (each worth 20%)
   2. Homework: 15%
-  3. Final Exam: 25%
+  3. Final Exam: 25%{% if site.data.info.grade-calc == "T" %}
   4. [Click here for a grade calculator](http://www.stat.illinois.edu/courses/stat100/computegrade.html)
+{% endif %}
+
+
 
 **Overall Grade is Translated into a Letter Grade as follows:**
 

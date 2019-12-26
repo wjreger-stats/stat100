@@ -1,7 +1,8 @@
 # UIUC Statistics 100 (Flanagan) Site for Spring 2020
 
 ## General Guide to Managing the STAT 100 Website.
-  - Weekly announcements, semester name, section info, class times, instructor info, course webpages, textbook info, office hours, technical support info, section info in bonus work section of syllabus, exam schedule info, practise exam info and settings, FAQs info (that changes from semester to semester, etc. can all be updated in _data/info.yml.
+  - Weekly announcements, semester name, section info, class times, instructor info, course webpages, textbook info, office hours, technical support info, section info in bonus work section of syllabus, exam schedule info, practise exam info and settings, FAQs info (that changes from semester to semester, viewability of grade calculator, etc. can all be updated in _data/info.yml.
+  - Grade calculator viewability is controlled by "grade-calc" found in _data/info.yml around line 130. Set to "T" to show the link, otherwise it will be nonexistent rather than greyed out.
   - Content on the staff page can be manipulated in _data/staff.yml
   - Calendar content can be edited and copied in tools/calendar-generator.ipynb, and then pasted in _includes/calendar.html (note: remove all text from _includes/calendar.html before pasting new html text).
   - Course name, semester name, and mission statement (found in footer section of all pages) can all be edited in _config.yml (found in main directory).
