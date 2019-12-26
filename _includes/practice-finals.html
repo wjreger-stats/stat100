@@ -6,14 +6,14 @@
     </tr>
     <tr>
       <td>
-        {% if site.data.info.show-finals == "T" %}
+        {% if site.data.info.show-finals != "FF" %}
         <a href="{{ site.baseurl }}/assets/docs/exams/Final/StudyGuide.pdf" target="\_blank">Study Guide for the Final</a>
         {% else %}
         <span style="color: #a9a9a9;">Study Guide for the Final</span>
         {% endif %}
       </td>
       <td>
-        {% if site.data.info.show-finals == "T" %}
+        {% if site.data.info.show-finals != "FF" %}
         <a href="{{ site.baseurl }}/assets/docs/exams/Final/StudyGuideKey_explanations_edit.pdf" target="\_blank">Key to the Study Guide for the Final</a>
         {% else %}
         <span style="color: #a9a9a9;">Key to the Study Guide for the Final</span>
