@@ -5,8 +5,8 @@
       <p>{{ site.description }}</p>
       <strong>Contact Us</strong>
       <p>
-        {% for contact in site.data.info.contact %}
-          <a href="mailto:{{ contact.email }}">Email {{ contact.name }}</a><br>
+        {% for instructor in site.data.info.instructors %}
+          <a href="mailto:{{ instructor.email }}">Email {{ instructor.name }}</a><br>
         {% endfor %}
       </p>
 

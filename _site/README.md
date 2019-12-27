@@ -1,5 +1,12 @@
 # UIUC Statistics 100 (Flanagan) Site for Spring 2020
 
+## Software Required:
+  - Git
+  - Jupyter notebook
+  - Ruby
+  - Jekyll
+  - Pyperclip (Instructions included in tools/calendar-generator.ipynb)
+
 ## General Guide to Managing the STAT 100 Website.
   - Weekly announcements, semester name, section info, class times, instructor info, course webpages, textbook info, office hours, technical support info, section info in bonus work section of syllabus, exam schedule info, practise exam info and settings, FAQs info (that changes from semester to semester, viewability of grade calculator, etc. can all be updated in _data/info.yml.
   - Grade calculator viewability is controlled by "grade-calc" found in _data/info.yml around line 130. Set to "T" to show the link, otherwise it will be nonexistent rather than greyed out.

@@ -9,13 +9,25 @@ title: syllabus
 # {{ site.short-title }} Syllabus {{ site.semester }} <a href="{{ site.baseurl }}/assets/docs/{{ site.short-semester }}_Stat100_Syllabus.pdf" target="\_blank">(View PDF)</a>
 
 ## Instructor Contact Information
-[//]: # (Loops through instructor contact information)
 <ul>
-{% for instructor in site.data.info.contact %}
+{% for instructor in site.data.info.instructors %}
+{% assign section_temp = site.data.info.sections | where: 'instructor', instructor.name %}
+
   <li>
-     <b>{{ instructor.section }} Instructor: {{ instructor.name }}</b><br>
+     <b>{% assign type_temp = section_temp | where: 'type', 'In Person' %}
+     {% if type_temp.size > 0 %}
+       {% assign count = 1 %}
+       {% if type_temp.size == 2 %}{% for class in type_temp %}{% if class == type_temp.first %}{{ class.name }} & {% else %}{{ class.name }}{% endif %}{% endfor %}{% elsif type_temp.size > 2 %}{% for class in type_temp %}{% if class == type_temp.first %}{{ class.name }}{% elsif class == type_temp.last %} & {{ class.name }}{% else %}, {{ class.name }}{% endif %}{% endfor %}{% else %}{% for class in type_temp %}{{ class.name }}{% endfor %}{% endif %} (In-Person)
+     {% endif %}
+
+     {% assign type_temp = section_temp | where: 'type', 'Online' %}
+     {% if type_temp.size > 0 %}
+       {% if count == 1 %} & {% endif %}
+       {% if type_temp.size == 2 %}{% for class in type_temp %}{% if class == type_temp.first %}{{ class.name }} & {% else %}{{ class.name }}{% endif %}{% endfor %}{% elsif type_temp.size > 2 %}{% for class in type_temp %}{% if class == type_temp.first %}{{ class.name }}{% elsif class == type_temp.last %} & {{ class.name }}{% else %}, {{ class.name }}{% endif %}{% endfor %}{% else %}{% for class in type_temp %}{{ class.name }}{% endfor %}{% endif %} (Online)
+     {% endif %} Instructor: {{ instructor.name }}</b><br>
      Email: <b><a href="mailto:{{ instructor.email }}">{{ instructor.email }}</a></b>
    </li>
+
 {% endfor %}
 <b>* Please do not send emails to our illinois.edu accounts.</b>
 </ul>
@@ -36,9 +48,9 @@ title: syllabus
 
 ## Class Times
 <ul>
-{% for class in site.data.info.classes %}
+{% for class in site.data.info.sections %}
   <li>
-    <b>{{ class.type }} {{ class.name }}:</b> {{ class.time }} {{ class.place }}
+    <b>{{ class.type }} Section {{ class.name }}:</b> {{ class.times }} {{ class.location }}
   </li>
 {% endfor %}
 </ul>
@@ -75,12 +87,12 @@ title: syllabus
 ## Bonus Work
 **Bonus Points — You may earn between 0 and 100 Bonus Points.**
 * **Everyone may earn between 0 and 100 Bonus Points.** Every bonus point earned helps your overall grade, but even if you do no bonus work, you can still get 100% for the course. In other words, bonus points can only help you. Bonus points are extra credit.
-* **IN PERSON CLASS ({% assign in_person = site.data.info.classes | where: 'type', 'In Person Section' %}{% if in_person.size == 2 %}{% for class in in_person %}{% if class == in_person.first %}{{ class.name }} & {% else %}{{ class.name }}{% endif %}{% endfor %}{% elsif in_person.size > 2 %}{% for class in in_person %}{% if class == in_person.first %}{{ class.name }}{% elsif class == in_person.last %} & {{ class.name }}{% else %}, {{ class.name }}{% endif %}{% endfor %}{% else %}{% for class in in_person %}{{ class.name }}{% endfor %}{% endif %}) Bonus Points (100 total bonus points)**
+* **{% assign in_person = site.data.info.sections | where: 'type', 'In Person' %}{% if in_person.size > 1 %}IN PERSON CLASSES ({% else %}IN PERSON CLASS ({% endif %}{% if in_person.size == 2 %}{% for class in in_person %}{% if class == in_person.first %}{{ class.name }} & {% else %}{{ class.name }}{% endif %}{% endfor %}{% elsif in_person.size > 2 %}{% for class in in_person %}{% if class == in_person.first %}{{ class.name }}{% elsif class == in_person.last %} & {{ class.name }}{% else %}, {{ class.name }}{% endif %}{% endfor %}{% else %}{% for class in in_person %}{{ class.name }}{% endfor %}{% endif %}) Bonus Points (100 total bonus points)**
   1. **Pre-Lecture bonus points**--20 bonus points
   2. **iClickers**--30 bonus points
   3. **Lon Capa Surveys**--20 bonus points
   4. **Completed Notebook**--30 bonus points
-* **ONLINE CLASSES ({% assign online = site.data.info.classes | where: 'type', 'Online Section' %}{% if online.size == 2 %}{% for class in online %}{% if class == online.first %}{{ class.name }} & {% else %}{{ class.name }}{% endif %}{% endfor %}{% elsif online.size > 2 %}{% for class in online %}{% if class == online.first %}{{ class.name }}{% elsif class == online.last %} & {{ class.name }}{% else %}, {{ class.name }}{% endif %}{% endfor %}{% else %}{% for class in online %}{{ class.name }}{% endfor %}{% endif %}) Bonus Points (100 total bonus points)**
+* **{% assign online = site.data.info.sections | where: 'type', 'Online' %}{% if online.size > 1 %}ONLINE CLASSES ({% else %}ONLINE CLASS ({% endif %}{% if online.size == 2 %}{% for class in online %}{% if class == online.first %}{{ class.name }} & {% else %}{{ class.name }}{% endif %}{% endfor %}{% elsif online.size > 2 %}{% for class in online %}{% if class == online.first %}{{ class.name }}{% elsif class == online.last %} & {{ class.name }}{% else %}, {{ class.name }}{% endif %}{% endfor %}{% else %}{% for class in online %}{{ class.name }}{% endfor %}{% endif %}) Bonus Points (100 total bonus points)**
   1. **Pre-Lecture bonus points**--40 bonus points
   2. **Lon Capa Surveys**--20 bonus points
   3. **Completed Notebook**--40 bonus points

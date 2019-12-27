@@ -11,51 +11,34 @@ announcements: >-
 
   </p>
 
-
-# Contact us (from syllabus "Instructor Contact Information" and footer "Contact Us")
-contact:
+# instructors and sections variables dictate content for the course sections info section of the home page, instructor contact information in syllabus, class times info in syllabus, bonus work info in syllabus, and instructor contact links in footer.
+# Note: the type attribute of the section variables must either be "In Person" or "Online" (These attribute values are case sensitive).
+instructors:
 - name: "Karle Flanagan"
   email: "stat100flanagan@gmail.com"
-  section: "L2 (In-Person) & KF (Online)"
 
 - name: "Kelly Findley"
   email: "kfindley@illinois.edu"
-  section: "L1 (In-Person)"
 
-# Section information (from home page)
 sections:
-- icon: "fas fa-chalkboard-teacher fa-4x" # this is In-Person icon
-  title: "In Person Section: L1 & L2"
-  details: >-
-    <b>L1 Instructor: Kelly Findley</b><br>
-    Mon/Wed/Fri 10:00am-10:50am, 101 Armory<br>
-    <b>L2 Instructor: Karle Flanagan</b><br>
-    Tues/Thurs 11:00am-12:20pm, Lincoln Hall Theater
-
-- icon: "fas fa-desktop fa-4x" # this is Online icon
-  title: "Online Section: KF"
-  details: >-
-    <b>Instructor: Karle Flanagan</b><br>
-    Watch lectures on Compass.<br>
-    Welcome to attend in-person anytime.
-
-# Class times (from syllabus "Class Times")
-# Very important to write "In Person Section" or "Online Section" exactly.
-classes:
 - name: "L1"
-  type: "In Person Section"
-  time: "Mon/Wed/Fri 10:00am-10:50am"
-  place: "-- 101 Armory"
+  type: "In Person"
+  instructor: "Kelly Findley"
+  times: "Mon/Wed/Fri 10:00am-10:50am"
+  location: "-- 101 Armory"
 
 - name: "L2"
-  type: "In Person Section"
-  time: "Tues/Thurs 11:00am-12:20pm"
-  place: "-- Lincoln Hall Theater"
+  type: "In Person"
+  instructor: "Karle Flanagan"
+  times: "Tues/Thurs 11:00am-12:20pm"
+  location: "-- Lincoln Hall Theater"
 
 - name: "KF"
-  type: "Online Section"
-  time: "No assigned meeting times. Watch lecture videos on Compass. Online people are welcome to attend class."
-  place: ""
+  type: "Online"
+  instructor: "Karle Flanagan"
+  times: "No assigned meeting times. Watch lecture videos on Compass."
+  location: "Online people are welcome to attend class."
+
 
 # Office hours
 office-hours:
@@ -127,7 +110,7 @@ final-years:
 uiucfinals: "https://registrar.illinois.edu/courses-grades/final-exam-schedule-public/fallschedulingguidelines_public/"
 final-deadline: "December 12th (the last day of class) at 11:59pm!"
 
-grade-calc: "T"
+grade-calc: T
 
 
 
@@ -200,7 +183,8 @@ technical:
   name: "Dr. Yuk Tung Liu"
   email: "ytliu@illinois.edu"
 
-
+in-person-icon: "fas fa-chalkboard-teacher fa-4x"
+online-icon: "fas fa-desktop fa-4x"
 
 
 
